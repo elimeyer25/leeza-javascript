@@ -35,6 +35,34 @@ console.log(name);
 let greeting = 'My name is ' + firstName + " " + middleName + " " + lastName;
 console.log(greeting);
 
+console.log("Using functions:");
+
+// function to make square numbers
+function makeSquare(theNumb) {
+  let squared = theNumb * theNumb;
+  return squared;
+}
+
+let try01 = makeSquare(3);
+console.log(try01);
+
+// Functions on my own
+
+function makeName(firstName, middleName, lastName) {
+  const fullName = firstName + " " + middleName + " " + lastName;
+  return fullName
+}
+
+const name1 = makeName("Joan", "Kevin", "Kaitlyn");
+const name2 = makeName("Chris", "Jo", "Margine");
+const name3 = makeName("Robert", "\"Beto\"", "O'Rourke");
+
+console.log(name1);
+console.log(name2);
+console.log(name3);
+
+
+
   </script>
 </body>
 </html>
